@@ -1,0 +1,60 @@
+<div class="ap-body">
+	<div class="theme pt12 pb12">	
+		<div class="toolbar">
+			<div class="pull-right">
+				<div class="icon action aside-panel-close mdi mdi-close"></div>
+				<!--<div class="dropdown pull-right">
+					<span id="dropdown6" class="icon action mdi mdi-dots-vertical dropdown-toggle" data-toggle="dropdown"></span>
+					<ul class="dropdown-menu top-right" role="menu" aria-labelledby="dropdown6">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#:;">Action</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#:;">Another action</a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#:;">Something else here</a></li>
+				    </ul>
+				</div>--><!-- /.dropdown -->
+			</div>
+			<div class="title large">Notifications</div>
+		</div><!-- /.toolbar -->
+	</div><!-- /.theme -->
+	<ul class="list-group no-border">
+		
+		<li class="divider"></li>
+		<li class="list-group-item item-icon item-lines">
+			<i class="icon large mdi mdi-email blue-grey-text text-lighten-2"></i>
+			<small class="pull-right sub-text"><i>9/24/15</i></small>
+			<p class="item-title">1 new Notification</p>			
+			<p class="item-text">Your Request Has been Changed</p>
+		</li>		
+		<li class="divider"></li>
+		<li class="list-group-item item-icon item-lines">
+			<i class="icon large mdi mdi-email blue-grey-text text-lighten-2"></i>
+			<small class="pull-right sub-text"><i>9/24/15</i></small>
+			<p class="item-title">1 new Notification</p>			
+			<p class="item-text">Your Request Has been Accepted</p>
+		</li>		
+		<li class="divider"></li>	
+		<li class="list-group-item item-icon item-lines">
+			<i class="icon large mdi mdi-email blue-grey-text text-lighten-2"></i>
+			<small class="pull-right sub-text"><i>9/24/15</i></small>
+			<p class="item-title">1 new Notification</p>			
+			<p class="item-text">Your Request Has been Canceled</p>
+		</li>		
+		<li class="divider"></li>	
+		
+	</ul>
+</div><!-- /.ap-body -->
+
+<script>
+(function () {
+
+	$('.aside-panel-close').on('click', function() {
+		$('.aside-panel').removeClass('open');
+	});
+
+	$(".ap-body").mCustomScrollbar({
+	 	theme:"dark",
+		autoHideScrollbar: 2,
+		autoExpandScrollbar:true
+	});
+
+})();	
+</script>
